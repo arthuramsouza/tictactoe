@@ -12,3 +12,13 @@ Java RMI implementation of the popular game Tic Tac Toe.
 The board consists of three rows and three columns. Each player must position their "piece" (X or O).
 
 To win, the player must fill any row, column or diagonal with three of their "pieces".
+
+## Usage
+
+After setting up the server, the client applications must be initialized just like the example below:
+
+```bash
+java Client 127.0.0.1 Arthur
+```
+
+The IP above should be replaced by the IP of the host where the server application is running. The second argument of the application is simply the player's name.
